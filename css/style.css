@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/halimun');
+
+:root{
+    --bg-color: #ffefe7;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.btn-pink:hover{
+    background-color: var(--bg-color);
+    border: .5px solid #eee;
+}
+
+.btn-white{
+    background-color: #eee;
+}
+
+.btn-white:hover{
+    background-color: var(--bg-color);
+    border: .5px solid black;
+}
+
+.gap{
+    gap: 3rem;
+}
+
+body{
+    background-color: var(--bg-color);
+    height: 100%;
+}
+
+.title{
+    font-family: 'Halimun', sans-serif;
+}
+
+
+section{
+    width: 100vw;
+    height: fit-content;
+}
+
+.card{
+    width: 18rem;
+    height: 35rem;
+}
+
+.cardFounders{
+    height: fit-content;
+}
+
+.cardFounders img{
+    height: 250px;
+}
+
+.map{
+    width:400; 
+    height:350;
+    border:0;
+}
+
+footer{
+    height: fit-content;
+}
+
+.copyright{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.backHome {
+    background-color: var(--color-bg);
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 100;
+  }
